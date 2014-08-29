@@ -1,5 +1,4 @@
-import math
-import time
+import math, time
 bottomrange = int(input("Enter the bottom number: "))
 toprange = int(input("Enter the top number: "))
 primeslist = []
@@ -15,7 +14,6 @@ for i in range (bottomrange,toprange):
     else:
         print(num)
         primeslist.append(num)
-
 print("THAT'S A TOTAL OF:")
 time.sleep(1)
 print(len(primeslist))
@@ -32,4 +30,21 @@ time.sleep(1)
 print("THAT'S A TOTAL OF:")
 time.sleep(1)
 print(len(palprimeslist))
+time.sleep(1)
+print("NOW HAPPY PALPRIMES:")
+time.sleep(1)
+def digits(n):
+  if n == 0:
+    return []
+  else:
+    return digits(n // 10) + [n % 10]
+digit_squares = [n*n for n in range(0, 10)]
+end_loop = [4, 16, 37, 58, 89, 145, 42, 20]
+for item in palprimeslist:
+  i = item
+  while i not in [1] + end_loop:
+    i = sum([digit_squares[d] for d in digits(i)])
+  if i == 1:
+    print(item)
+time.sleep(1)              
 input("Press to exit")
