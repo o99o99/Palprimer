@@ -3,7 +3,7 @@ Palprimer
 
 Primes and Palprimes Finder
 
-Thanks to rcshaosid for making the happy number section
+Thanks to rschaosid for making the happy number section
 
 This simple Python tool is for listing all primes, palprimes (primes which are also palindromic) and then happy palprimes in a certain range. 
 
