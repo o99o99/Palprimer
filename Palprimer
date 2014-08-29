@@ -19,6 +19,11 @@ for i in range (bottomrange,toprange):
     else:
         print(num)
         primeslist.append(num)
+        
+print("THAT'S A TOTAL OF:")
+time.sleep(1)
+print(len(primeslist))
+time.sleep(1)
 
 print("OF THOSE, THESE ARE PALPRIMES:")
 time.sleep(1)
