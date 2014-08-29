@@ -18,7 +18,7 @@ try:
 except KeyboardInterrupt:
     time.sleep(1)
     print()
-    print("HALTED. ALL FURTHER LISTS WILL ONLY INCLUDE NUMBER ABOVE.")
+    print("HALTED. ALL FURTHER LISTS WILL ONLY INCLUDE NUMBERS ABOVE.")
     time.sleep(1)
 print("THAT'S A TOTAL OF:")
 time.sleep(1)
@@ -36,7 +36,7 @@ try:
 except KeyboardInterrupt:
     print()
     time.sleep(1)
-    print("HALTED. ALL FURTHER LISTS WILL ONLY INCLUDE NUMBER ABOVE.")
+    print("HALTED. ALL FURTHER LISTS WILL ONLY INCLUDE NUMBERS ABOVE.")
     time.sleep(1)        
 print("THAT'S A TOTAL OF:")
 time.sleep(1)
