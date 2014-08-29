@@ -1,10 +1,17 @@
-#Edit range here
-bottomrange = 0
-toprange = 10000000
-
-
+from sys import argv
 import math
 import time
+
+#Get range from cli args
+argv = map(int, argv[-1].split('-'))
+if len(argv) < 2:
+    bottomrange = 1
+    toprange = argv[0]
+else:
+    bottomrange = argv[0]
+    toprange = argv[1]
+if bottomrange < 2:
+    bottomrange = 2
 
 primeslist = []
 palprimeslist = []
