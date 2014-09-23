@@ -18,4 +18,4 @@ The generation of lists can be stopped at any time, and the program will proceed
 This is currently as fast as I can make it work. The reason I have it list every prime as it finds them is so the user can
 see that it is working and not stuck in an infinite loop somewhere.
 
-If you think anything could be improved, or if you have a way of checking for double primes or happy primes, please let me know!
+If you think anything could be improved, or if you have a way of checking for double primes, please let me know!
